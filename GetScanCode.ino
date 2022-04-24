@@ -38,8 +38,6 @@ void loop() {
   // put your main code here, to run repeatedly:
  //Serial.println(clockcnt);  
  if (keyrdy==1) {
-    scancode = scancode & 511;
-    scancode = scancode >> 1;
     Serial.println(scancode,HEX);
     scancode=0;
     keyrdy=0;
