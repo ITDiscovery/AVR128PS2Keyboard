@@ -7,6 +7,7 @@ Looks like the PS2KeyAdvanced has been updated.
 https://github.com/techpaul/PS2KeyAdvanced
 
 Codes:
+```
 /* Single Byte Key Codes */
 USB_KC_CAPS     0x03
 USB_KC_PRNTSCN. 0x04
@@ -107,3 +108,4 @@ USB_KC_F11      0X6B
 USB_KC_F12      0X6C
 USB_KC_NUM      0x77 
 USB_KC_SCROLL   0x7E
+```
