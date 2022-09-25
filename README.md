@@ -1,10 +1,47 @@
 # AVR128PS2Keyboard
-Re-writing the PS2/USB Keyboard reader on the AVR
+This project started as a way to attach a USB Keyboard to a retro computer, the ZX-81. The schematic and board will
+accomodate most any retro PC that uses a matrix. It has the ability for both Shift, CTRL, ALT and one other "function key". The board is an extension of the AVR128DB28 Breakout board, so I've included the ability to get at all the ports this device has.
 
+Design Goals:
+1. USB to ZX-81
+1. USB to ZX Spectrum (or Harlequin)
+1. USB to Dragon
+1. USB to Color Computer 2/3
+1. Have it so that you can select or change on the fly which system you are emulating
+1. Provide a serial connection to Composite TV, so a quicky dumb terminal (combines a couple of projects)
+
+I didn't need to re-write the PS2Advanced Library. After a couple of iterations of DXCore updates, 
+it started working. A guess is that it was a problem with attachInterupt...which if you change the setting of, 
+the library doesn't work at all.
+
+Here's Ben Eater's description of how the Keyboard works. All that is done via the PSAdvanced library.
 https://www.youtube.com/watch?v=7aXbh9VUB3U
 
-Looks like the PS2KeyAdvanced has been updated.
-https://github.com/techpaul/PS2KeyAdvanced
+PS2Advanced Libary is at https://github.com/techpaul/PS2KeyAdvanced
+
+For the ZX-81:
+
+Connect on the board:
+H3A-1 to H6-1
+H4A-8 to H6-2
+
+Connect the board to the ZX-81:
+H7-5 to +5V
+H7-6 to Gnd
+H3-1 to KBD0
+H3-2 to KBD1
+H3-3 to KBD2
+H3-4 to KBD3
+H3-5 to KBD4
+H4-1 to D1
+H4-2 to D2
+H4-3 to D3
+H4-4 to D4
+H4-5 to D5
+H4-6 to D6
+H4-7 to D7
+H4-8 to D8
+
 
 Codes:
 ```
