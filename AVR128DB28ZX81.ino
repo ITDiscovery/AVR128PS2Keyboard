@@ -162,9 +162,7 @@ void loop( )
   // read the next key
   c = keyboard.read( );
   //Ignore Keyboard break and only look at make
-  //if( (c>0) & (c<32768)) 
-  //Capture only 48 to 287
-  if( (c>0) & (c<288)) 
+  if( (c>0) & (c<32768))
     {
       Serial.print("Code=");
       Serial.print(c);
