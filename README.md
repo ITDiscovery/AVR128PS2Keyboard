@@ -22,25 +22,51 @@ PS2Advanced Libary is at https://github.com/techpaul/PS2KeyAdvanced
 For the ZX-81:
 
 Connect on the board:
-H3A-1 to H6-1
-H4A-8 to H6-2
+1. H3A-1 to H6-1
+1. H4A-8 to H6-2
 
 Connect the board to the ZX-81:
-H7-5 to +5V
-H7-6 to Gnd
-H3-1 to KBD0
-H3-2 to KBD1
-H3-3 to KBD2
-H3-4 to KBD3
-H3-5 to KBD4
-H4-1 to D1
-H4-2 to D2
-H4-3 to D3
-H4-4 to D4
-H4-5 to D5
-H4-6 to D6
-H4-7 to D7
-H4-8 to D8
+1. H7-5 to +5V
+1. H7-6 to Gnd
+1. H3-1 to KBD0
+1. H3-2 to KBD1
+1. H3-3 to KBD2
+1. H3-4 to KBD3
+1. H3-5 to KBD4
+1. H4-1 to D1
+1. H4-2 to D2
+1. H4-3 to D3
+1. H4-4 to D4
+1. H4-5 to D5
+1. H4-6 to D6
+1. H4-7 to D7
+1. H4-8 to D8
+
+For the ZX-Spectrum/Harlequin:
+
+Connect on the board:
+1. H3A-1 to H6-1
+1. H4A-6 to H6-2
+1. H3A-2 to H6-3
+1. H4A-8 to H6-4
+
+Connect the board to the ZX-81:
+1. H7-5 to +5V
+1. H7-6 to Gnd
+1. H3-1 to KBD0
+1. H3-2 to KBD1
+1. H3-3 to KBD2
+1. H3-4 to KBD3
+1. H3-5 to KBD4
+1. H4-1 to D1
+1. H4-2 to D2
+1. H4-3 to D3
+1. H4-4 to D4
+1. H4-5 to D5
+1. H4-6 to D6
+1. H4-7 to D7
+1. H4-8 to D8
+
 
 
 Codes:
