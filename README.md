@@ -8,6 +8,7 @@ Design Goals:
 1. USB to Dragon
 1. USB to Color Computer 2/3
 1. Have it so that you can select or change on the fly which system you are emulating
+1. Have it store a default emulation in EEPROM
 1. Provide a serial connection to Composite TV, so a quicky dumb terminal (combines a couple of projects)
 
 I didn't need to re-write the PS2Advanced Library. After a couple of iterations of DXCore updates, 
