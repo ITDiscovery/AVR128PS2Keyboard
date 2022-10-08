@@ -193,7 +193,7 @@ void setup( )
   //Storing saved default template at EEPROM(0) and size of table at EEPROM(1)
   kbdtmp = EEPROM.read(0);
   tabletop = EEPROM.read(1);
-  if (kbdtmp > 6) {
+  if (kbdtmp > 2) {
     // Keyboard Template defaults to ZX-81
     kbdtmp = 0;
     // This template has 89 entries
@@ -219,7 +219,10 @@ void loop( )
   //Ignore Keyboard break and only look at make
   if( (c>0) & (c<32768)) 
     {
-      //Shift F12 Key=20844 Code Goes Here
+      //F12 Key=364 Code Goes Here
+      if (c==364) {
+        ChgTmplate();
+      }
       Serial.print("Keycode=");
       Serial.print(c);
       uint16_t e = 0;
@@ -266,6 +269,18 @@ void ALDLOutput(int d)
 
 void ChgTmplate()
 {
-  Serial.println("Changed to next template");
-  
+  if (kbdtmp == 0) {
+    kbdtmp=1;
+    tabletop=172;
+    EEPROM.write(0,1);
+    EEPROM.write(1,172);
+  }
+  else {
+    kbdtmp=0;
+    tabletop=89;
+    EEPROM.write(0,0);
+    EEPROM.write(1,89);     
+  }
+  Serial.print("Changed to template ");
+  Serial.println(kbdtmp);
 }
