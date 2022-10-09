@@ -8,6 +8,7 @@ Design Goals:
 1. USB to Dragon
 1. USB to Color Computer 2/3
 1. Model 1/2/3/4/4P/16/6000? 
+1. Mac Classic via the H5 Connector.
 1. Have it so that you can select or change on the fly which system you are emulating (done)
 1. Have it store a default emulation in EEPROM (done)
 1. Have it display via keyboard led which emulation it's doing (keyboard.setLEDs seems to be broken, next board can have LEDs added)
@@ -69,3 +70,9 @@ Connect the board to the ZX-81:
 1. H4-6 to D6
 1. H4-7 to D7
 1. H4-8 to D8
+
+Connection to the Mac Classic:
+H5-1: Gnd
+H5-3: PF1
+H5-4: PF0
+H7-2: +5V
