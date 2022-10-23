@@ -8,7 +8,7 @@ Design Goals:
 1. USB to Dragon
 1. USB to Color Computer 2/3
 1. Model 1/2/3/4/4P/16/6000? 
-1. Mac Classic (M0110, M0110A and M0120 keyboards) via the H5 Connector, and Mouse via ??? Connector. (https://github.com/altercation/tmk_firrmware_hhkb_teensy2/blob/master/protocol/m0110.c)
+1. Mac Classic (M0110, M0110A and M0120 keyboards) via the J9 Connector, and Mouse via J6 Connector. (https://github.com/altercation/tmk_firrmware_hhkb_teensy2/blob/master/protocol/m0110.c)
 1. Have it so that you can select or change on the fly which system you are emulating (done)
 1. Have it store a default emulation in EEPROM (done)
 1. Have it display via keyboard led which emulation it's doing (keyboard.setLEDs seems to be broken, next board can have LEDs added)
