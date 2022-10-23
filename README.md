@@ -72,7 +72,16 @@ Connect the board to the ZX-81:
 1. H4-8 to D8
 
 Connection to the Mac Classic:
-H5-1: Gnd
-H5-3: PF1
-H5-4: PF0
-H7-2: +5V
+J9-1(Gnd) to H5-1 
+J9-2(Clk) to H5-4
+J9-3(Data) to H5-3
+J9-4(+5v) to H5-2 (Don't populate R4 or R5)
+J6-1(Gnd) H7-1
+J6-2(+5V) H7-2
+J6-3 N/C
+J6-4(X2) H7-3
+J6-5(X1) H7-4
+J6-6 N/C
+J6-7(SW-) to U4-12
+J6-8(Y2) to H7-5
+J6-9(Y1) to H7-6
