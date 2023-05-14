@@ -27,7 +27,7 @@ For the ZX-81:
 
 Connect on the board:
 1. H3A-1 to H6-1
-1. H4A-8 to H6-2
+1. H4A-6 to H6-2
 
 Connect the board to the ZX-81:
 1. H7-5 to +5V
@@ -54,7 +54,7 @@ Connect on the board:
 1. H3A-2 to H6-3
 1. H4A-8 to H6-4
 
-Connect the board to the ZX-81:
+Connect the board to the ZX-Spectrum:
 1. H7-5 to +5V
 1. H7-6 to Gnd
 1. H3-1 to KBD0
