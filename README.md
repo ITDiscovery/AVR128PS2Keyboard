@@ -29,6 +29,30 @@ Specific support for the various lines have been broken out:
 - [Tandy/RadioShack](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/TRS.md) untested code for the Color Computer and Model 3.
 - [Commodore](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/Commodore.md) untested code for the C64, and VIC20.
 
+Mux Code is driven by the follwing:
+
+| Connection | Bits  7/6 | Bits 5/4/3 | Bits 2/1/0 |
+| - | - | - | - |
+| H3-1 | XX | XXX | 000 | 
+| H3-2 | XX | XXX | 001 | 
+| H3-3 | XX | XXX | 010 | 
+| H3-4 | XX | XXX | 011 | 
+| H3-5 | XX | XXX | 100 | 
+| H3-6 | XX | XXX | 101 | 
+| H3-7 | XX | XXX | 110 | 
+| H3-8 | XX | XXX | 111 | 
+| H4-1 | XX | 000 | XXX | 
+| H4-2 | XX | 001 | XXX | 
+| H4-3 | XX | 010 | XXX | 
+| H4-4 | XX | 011 | XXX | 
+| H4-5 | XX | 100 | XXX | 
+| H4-6 | XX | 101 | XXX | 
+| H4-7 | XX | 110 | XXX | 
+| H4-8 | XX | 111 | XXX | 
+| No-Shift| 00 | XXX | XXX |
+| H6-1/2 | 01 | XXX | XXX |
+| H6-3/4 | 10 | XXX | XXX |
+| H6-5/6 | 11 | XXX | XXX |
 
 Connection to the Mac Classic (This is a separate code base):
 1. J9-1(Gnd) to H5-1 
