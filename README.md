@@ -132,7 +132,10 @@ This code is untested!!!
 | Row/Col |  |  |  |  |  |  |  |  |  |  |
 | USB Code| 81 | 87 | 69 | 82 | 84 | 89 | 85 | 73 | 79 | 80 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
-
+| Key | A | S | D | F | G | H | J | K | L | <ENTER |
+| Row/Col |  |  |  |  |  |  |  |  |  |  |
+| USB Code| 65 | 83 | 68 | 70 | 71 | 72 | 74 | 75 | 76 | 286 | 
+| Mux Code|    |    |    |    |    |    |    |    |   |   |
 
 ```
 //Unshifted C64 - Tabletop=
