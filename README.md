@@ -132,9 +132,13 @@ This code is untested!!!
 | Row/Col |  |  |  |  |  |  |  |  |  |  |
 | USB Code| 81 | 87 | 69 | 82 | 84 | 89 | 85 | 73 | 79 | 80 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
-| Key | A | S | D | F | G | H | J | K | L | <ENTER |
+| Key | A | S | D | F | G | H | J | K | L | <ENTER> |
 | Row/Col |  |  |  |  |  |  |  |  |  |  |
 | USB Code| 65 | 83 | 68 | 70 | 71 | 72 | 74 | 75 | 76 | 286 | 
+| Mux Code|    |    |    |    |    |    |    |    |   |   |
+| Key | Z | X | C | V | B | N | M | . | <SPACE> | |
+| Row/Col |  |  |  |  |  |  |  |  |  |  |
+| USB Code| 90 | 88 | 67 | 86 | 66 | 78 | 77 | 61 | 287 | | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
 
 ```
