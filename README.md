@@ -24,6 +24,11 @@ https://www.youtube.com/watch?v=7aXbh9VUB3U
 
 PS2Advanced Libary is at https://github.com/techpaul/PS2KeyAdvanced
 
+Specific support for the various lines have been broken out:
+- [Sinclair](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/Sinclair.md) full support of the ZX-80/81 and the Spectrum.
+- [Tandy/RadioShack](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/TRS.md) untested code for the Color Computer and Model 3.
+- [Commodore](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/Commodore.md) untested code for the C64, and VIC20.
+
 For the ZX-81:
 
 Connect on the board:
