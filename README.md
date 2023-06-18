@@ -72,54 +72,54 @@ Connect the board to the ZX-Spectrum:
 1. H4-7 to D7
 1. H4-8 to D8
 
-Connection to the Mac Classic:
-J9-1(Gnd) to H5-1 
-J9-2(Clk) to H5-4
-J9-3(Data) to H5-3
-J9-4(+5v) to H5-2 (Don't populate R4 or R5)
-J6-1(Gnd) H7-1
-J6-2(+5V) H7-2
-J6-3 N/C
-J6-4(X2) H7-3
-J6-5(X1) H7-4
-J6-6 N/C
-J6-7(SW-) to U4-12
-J6-8(Y2) to H7-5
-J6-9(Y1) to H7-6
+Connection to the Mac Classic (This is a separate code base):
+1. J9-1(Gnd) to H5-1 
+1. J9-2(Clk) to H5-4
+1. J9-3(Data) to H5-3
+1. J9-4(+5v) to H5-2 (Don't populate R4 or R5)
+1. J6-1(Gnd) H7-1
+1. J6-2(+5V) H7-2
+1. J6-3 N/C
+1. J6-4(X2) H7-3
+1. J6-5(X1) H7-4
+1. J6-6 N/C
+1. J6-7(SW-) to U4-12
+1. J6-8(Y2) to H7-5
+1. J6-9(Y1) to H7-6
 
 Connection to Commodore64 (CN-1):
-Pin 1 H7-6 (Gnd)
-Pin 2   (Key)
-Pin 3 to H6-8 (Restore) (H6-7 then to GND)
-Pin 4 to H7-5 (+5V)
-Pin 5 to H3-1 (Row 3, Pin 13/PB3)
-Pin 6 to H3-2 (Row 6, Pin 16/PB6)
-Pin 7 to H3-3 (Row 5, Pin 15/PB5)
-Pin 8 to H3-4 (Row 4, Pin 14/PB4)
-Pin 9 to H3-5 (Row 7, Pin 17/PB7)
-Pin 10 to H3-6 (Row 2, Pin 12/PB2)
-Pin 11 to H3-7 (Row 1, Pin 11/PB1)
-Pin 12 to H3-8 (Row 0, Pin 10/PB0)
-Pin 13 to H4-1 (Col 0, Pin 2/PA0)
-Pin 14 to H4-2 (Col 6, Pin 8/PA6)
-Pin 15 to H4-3 (Col 5, Pin 7/PA5)
-Pin 16 to H4-4 (Col 4, Pin 6/PA4)
-Pin 17 to H4-5 (Col 3, Pin 5/PA3)
-Pin 18 to H4-6 (Col 2, Pin 4/PA2)
-Pin 19 to H4-7 (Col 1, Pin 3/PA1)
-Pin 20 to H4-8 (Col 7, Pin 9/PA7)
+1. Pin 1 H7-6 (Gnd)
+1. Pin 2   (Key)
+1. Pin 3 to H6-8 (Restore) (H6-7 then to GND)
+1. Pin 4 to H7-5 (+5V)
+1. Pin 5 to H3-1 (Row 3, Pin 13/PB3)
+1. Pin 6 to H3-2 (Row 6, Pin 16/PB6)
+1. Pin 7 to H3-3 (Row 5, Pin 15/PB5)
+1. Pin 8 to H3-4 (Row 4, Pin 14/PB4)
+1. Pin 9 to H3-5 (Row 7, Pin 17/PB7)
+1. Pin 10 to H3-6 (Row 2, Pin 12/PB2)
+1. Pin 11 to H3-7 (Row 1, Pin 11/PB1)
+1. Pin 12 to H3-8 (Row 0, Pin 10/PB0)
+1. Pin 13 to H4-1 (Col 0, Pin 2/PA0)
+1. Pin 14 to H4-2 (Col 6, Pin 8/PA6)
+1. Pin 15 to H4-3 (Col 5, Pin 7/PA5)
+1. Pin 16 to H4-4 (Col 4, Pin 6/PA4)
+1. Pin 17 to H4-5 (Col 3, Pin 5/PA3)
+1. Pin 18 to H4-6 (Col 2, Pin 4/PA2)
+1. Pin 19 to H4-7 (Col 1, Pin 3/PA1)
+1. Pin 20 to H4-8 (Col 7, Pin 9/PA7)
 
 CTRL Key: 
-H3A-8 to H6-1
-H4A-8 to H6-2
+1. H3A-8 to H6-1
+1. H4A-8 to H6-2
 
 Left Shift:
-H4A-7 to H6-3
-H3A-5 to H6-4
+1. H4A-7 to H6-3
+1. H3A-5 to H6-4
 
 Right Shift:
-H4A-2 to H6-5
-H3A-4 to H6-6
+1. H4A-2 to H6-5
+1. H3A-4 to H6-6
 
 This code is untested!!!
 
