@@ -143,6 +143,7 @@ This code is untested!!!
 
 
 | Key | $ | * | ; | / | L-SHIFT | R-SHIFT | = | Up | HOME |
+| - | - | - | - | - | - | - | - | - | - | - |
 | Row/Col |  |  |  |  |  |  |  |  |  |
 | USB Code| 16436 | 16440 | 91 | 62 | 16646 | 16647 | 95 | 279 | 273 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |
