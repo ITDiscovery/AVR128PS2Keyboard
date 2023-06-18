@@ -148,14 +148,14 @@ This code is untested!!!
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
 
 
-| Key | $ | * | ; | / | L-SHIFT | R-SHIFT | = | Up | HOME |
-| - | - | - | - | - | - | - | - | - | - |
-| Row/Col | R0C6 | R1C6 | R2C6 | R3C6 | R3C1 | R4C6 | R5C6 | R6C6 | R6C7 |
-| USB Code| 16436 | 16440 | 91 | 62 | 16646 | 16647 | 95 | 279 | 273 | 
-| Mux Code|    |    |    |    |    |    |    |    |   |
+| Key | $ | * | ; | / | L-SHIFT | R-SHIFT | CTRL | = | Up | HOME |
+| - | - | - | - | - | - | - | - | - | - | - |
+| Row/Col | R0C6 | R1C6 | R2C6 | R3C6 | R3C1 | R4C6 | R2C0 | R5C6 | R6C6 | R6C7 |
+| USB Code| 16436 | 16440 | 91 | 62 | 16646 | 16647 |  | 95 | 279 | 273 | 
+| Mux Code|    |    |    |    |    |    |    |    |    |  |
 
 | Key | DEL | L-R | U-D | F1 | F3 | F5 | F7 | Run/Stop | CMDRE |
-| - | - | - | - | - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - | - | - | - |
 | Row/Col | R0C7 | R2C7 | R3C7 | R4C7 | R5C7 | R6C7 | R7C7 | R0C0 | R5C0 |
 | USB Code| 284 | 277 | 278 | 353 | 355 | 357 | 359 | 283 | 780 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |
