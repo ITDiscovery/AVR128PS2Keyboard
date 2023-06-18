@@ -128,15 +128,21 @@ This code is untested!!!
 | Row/Col | R0C0 | R7C0 | R3C7 | R7C1 | R0C2 | R7C2 | R0C3 | R7C3 | R0C4 | R7C4 |
 | USB Code| 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 48 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
+
 | Key | Q | W | E | R | T | Y | U | I | O | P |
+| - | - | - | - | - | - | - | - | - | - | - |
 | Row/Col | R6C0 | R1C1 | R6C1 | R1C2 | R6C2 | R1C3 | R6C3 | R1C4 | R6C4 | R1C5  |
 | USB Code| 81 | 87 | 69 | 82 | 84 | 89 | 85 | 73 | 79 | 80 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
+
 | Key | A | S | D | F | G | H | J | K | L | ENTER |
+| - | - | - | - | - | - | - | - | - | - | - |
 | Row/Col | R2C1 | R5C1 | R2C2 | R5C2 | R2C3 | R5C3 | R2C4 | R5C4 | R2C5 | R1C7 |
 | USB Code| 65 | 83 | 68 | 70 | 71 | 72 | 74 | 75 | 76 | 286 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
+
 | Key | Z | X | C | V | B | N | M | . | SPACE | |
+| - | - | - | - | - | - | - | - | - | - | - |
 | Row/Col | R4C1 | R3C2 | R4C2 | R3C3 | R4C3 | R3C4 | R4C4 | R4C5 | R4C0 |  |
 | USB Code| 90 | 88 | 67 | 86 | 66 | 78 | 77 | 61 | 287 | | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
@@ -147,8 +153,10 @@ This code is untested!!!
 | Row/Col | R0C6 | R1C6 | R2C6 | R3C6 | R3C1 | R4C6 | R5C6 | R6C6 | R6C7 |
 | USB Code| 16436 | 16440 | 91 | 62 | 16646 | 16647 | 95 | 279 | 273 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |
+
 | Key | DEL | L-R | U-D | F1 | F3 | F5 | F7 | Run/Stop | CMDRE |
-| Row/Col |  |  |  |  |  |  |  |  |  |
+| - | - | - | - | - | - | - | - | - | - | - |
+| Row/Col | R0C7 | R2C7 | R3C7 | R4C7 | R5C7 | R6C7 | R7C7 | R0C0 | R5C0 |
 | USB Code| 284 | 277 | 278 | 353 | 355 | 357 | 359 | 283 | 780 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |
 
