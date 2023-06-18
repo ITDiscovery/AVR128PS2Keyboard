@@ -128,6 +128,10 @@ This code is untested!!!
 | Row/Col | R0C0 | R7C0 | R3C7 | R7C1 | R0C2 | R7C2 | R0C3 | R7C3 | R0C4 | R7C4 |
 | USB Code| 49 | 50 | 51 | 52 | 53 | 54 | 55 | 56 | 57 | 48 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
+| Key | Q | W | E | R | T | Y | U | I | O | P |
+| Row/Col |  |  |  |  |  |  |  |  |  |  |
+| USB Code| 81 | 87 | 69 | 82 | 84 | 89 | 85 | 73 | 79 | 80 | 
+| Mux Code|    |    |    |    |    |    |    |    |   |   |
 
 
 ```
