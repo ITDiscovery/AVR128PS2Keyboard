@@ -144,7 +144,7 @@ This code is untested!!!
 
 | Key | $ | * | ; | / | L-SHIFT | R-SHIFT | = | Up | HOME |
 | - | - | - | - | - | - | - | - | - | - |
-| Row/Col | R0C6 | R1C6 | R2C6 | R3C6 | R3C1 | R4C6 | R6C6 | R6C7 |
+| Row/Col | R0C6 | R1C6 | R2C6 | R3C6 | R3C1 | R4C6 | R5C6 | R6C6 | R6C7 |
 | USB Code| 16436 | 16440 | 91 | 62 | 16646 | 16647 | 95 | 279 | 273 | 
 | Mux Code|    |    |    |    |    |    |    |    |   |
 | Key | DEL | L-R | U-D | F1 | F3 | F5 | F7 | Run/Stop | CMDRE |
