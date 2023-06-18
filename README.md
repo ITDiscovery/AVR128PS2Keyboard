@@ -141,6 +141,17 @@ This code is untested!!!
 | USB Code| 90 | 88 | 67 | 86 | 66 | 78 | 77 | 61 | 287 | | 
 | Mux Code|    |    |    |    |    |    |    |    |   |   |
 
+
+| Key | $ | * | ; | / | L-SHIFT | R-SHIFT | = | Up | HOME |
+| Row/Col |  |  |  |  |  |  |  |  |  |
+| USB Code| 16436 | 16440 | 91 | 62 | 16646 | 16647 | 95 | 279 | 273 | 
+| Mux Code|    |    |    |    |    |    |    |    |   |
+| Key | DEL | L-R | U-D | F1 | F3 | F5 | F7 | Run/Stop | CMDRE |
+| Row/Col |  |  |  |  |  |  |  |  |  |
+| USB Code| 284 | 277 | 278 | 353 | 355 | 357 | 359 | 283 | 780 | 
+| Mux Code|    |    |    |    |    |    |    |    |   |
+
+
 ```
 //Unshifted C64 - Tabletop=
   {  
