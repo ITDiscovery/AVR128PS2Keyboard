@@ -101,8 +101,6 @@ CTRL Key:
 ```
 
 
-
-
 Connection to Commodore64 (CN-1):
 1. Pin 1 H7-6 (Gnd)
 1. Pin 2   (Key)
