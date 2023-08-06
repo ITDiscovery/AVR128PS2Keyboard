@@ -277,6 +277,9 @@ void loop( )
       if (c==364) {
         ChgTmplate();
       }
+      if (c==6) {
+        RstButton();
+      }
       Serial.print("Keycode=");
       Serial.print(c);
       uint16_t e = 0;
@@ -319,6 +322,13 @@ void ALDLOutput(int d)
   //digitalWrite(kbdPins[8],LOW);
   //digitalWrite(kbdPins[9],LOW);
   digitalWrite(kbdPins[10],HIGH);
+}
+
+void RstButton()
+{
+  digitalWrite(kbdPins[9],HIGH);
+  delay(100);
+  digitalWrite(kbdPins[9],LOW);  
 }
 
 void ChgTmplate()

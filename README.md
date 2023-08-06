@@ -12,7 +12,7 @@ Design Goals:
 1. Classic MacIntosh (M0110 keyboard) via the J9 Connector, and Mouse via J6 Connector. (https://github.com/altercation/tmk_firrmware_hhkb_teensy2/blob/master/protocol/m0110.c) -Done: Needs more work, and I need to correct some issues with my MacClassicPlus 1Mb. This code base will be standalone...how this old Mac handles keys is different from the other retro computers.
 1. Have it so that you can select or change on the fly which system you are emulating (done)
 1. Have it store a default emulation in EEPROM (done)
-1. Provide the ability to do a reset/restore (Using 4Z gate, Pin 7 and 8 on H6).
+1. Provide the ability to do a reset/restore (Using 4Z gate, Pin 7 and 8 on H6). -done
 1. Have it display via keyboard led which emulation it's doing (keyboard.setLEDs seems to be broken, next board can have LEDs added)
 1. Provide a serial connection or a Composite TV, so a quicky dumb terminal (combines a couple of projects)
 1. Move the lookup tables to Flash (PROGMEM)
@@ -54,6 +54,11 @@ Mux Code is driven by the follwing:
 | H6-1/2 | 01 | XXX | XXX |
 | H6-3/4 | 10 | XXX | XXX |
 | H6-5/6 | 11 | XXX | XXX |
+
+A reset or other switched line (Restore on Commodore for instance) can be
+connected to pins H6-7 and H6-8 where the code will perform make contact for 100mSec
+when the Pause/Break (Code 6) is typed. A handy ground pin at H5-1 can be used to with a
+dropping resistor to H6-8 for a nice reset button.
 
 Connection to the Mac Classic (This is a separate code base):
 1. J9-1(Gnd) to H5-1 
