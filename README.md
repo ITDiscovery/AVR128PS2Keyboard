@@ -8,13 +8,15 @@ Design Goals:
 1. USB to Dragon
 1. USB to Color Computer 2/3?
 1. USB to Model 1/2/3/4/4P/16/6000? 
-1. USB to Commodore VIC20 (in testing) /C64/PET
+1. USB to Commodore VIC20 (done) /C64/PET
 1. Classic MacIntosh (M0110 keyboard) via the J9 Connector, and Mouse via J6 Connector. (https://github.com/altercation/tmk_firrmware_hhkb_teensy2/blob/master/protocol/m0110.c) -Done: Needs more work, and I need to correct some issues with my MacClassicPlus 1Mb. This code base will be standalone...how this old Mac handles keys is different from the other retro computers.
 1. Have it so that you can select or change on the fly which system you are emulating (done)
 1. Have it store a default emulation in EEPROM (done)
+1. Provide the ability to do a reset/restore (Using 4Z gate, Pin 7 and 8 on H6).
 1. Have it display via keyboard led which emulation it's doing (keyboard.setLEDs seems to be broken, next board can have LEDs added)
 1. Provide a serial connection or a Composite TV, so a quicky dumb terminal (combines a couple of projects)
 1. Move the lookup tables to Flash (PROGMEM)
+
 
 I didn't need to re-write the PS2Advanced Library. After a couple of iterations of DXCore updates, it started working. A guess is that it was a problem with attachInterupt...which if you change the setting of, the library doesn't work at all.
 

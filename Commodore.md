@@ -74,9 +74,9 @@ CTRL Key:
 | Mux Code| B000110 | B111110 | B000111 | B001000 | B011111 | B110110 | B010111 |  B010000  | B011001 | B100110 |
 
 | Key | F1 | F3 | F5 | F7 | Run/Stop | CMDRE | F2 | F4 | F6 | F8 |
-| - | - | - | - | - | - | - | - | - | - |
+| - | - | - | - | - | - | - | - | - | - | - | - |
 | USB Code| 353 | 355 | 357 | 359 | 283 | 780 | 354 | 356 | 358 | 360 |
-| Row/Col  | R7C4    | R7C5    | R7C6    | R7C7    | R0C3    | R0C5    | S + R7C4 | S + R7C5     | S + R7C6 | S + R7C7 | 
+| Row/Col  | R7C4    | R7C5    | R7C6    | R7C7    | R0C3    | R0C5    | S + R7C4 | S + R7C5 | S + R7C6 | S + R7C7 | 
 | Mux Code | B100111 | B101111 | B110111 | B111111 | B011000 | B101000 | B1100111 | B1101111 | B1110111 | B1111111 | 
 
 ESC = Run Stop
@@ -89,6 +89,7 @@ Tab = British Pound
 Shifted 2 = @
 (  = Shifted 8
 ) = Shifted 9
+Pause/Break = Restore
 
 ## C64
 
