@@ -6,7 +6,7 @@ Design Goals:
 1. USB to ZX-81 (done)
 1. USB to ZX Spectrum (or Harlequin) (done)
 1. USB to Dragon
-1. USB to Color Computer 2/3?
+1. USB to Color Computer 2/3 (in progess for version 5)
 1. USB to Model 1/2/3/4/4P/16/6000? 
 1. USB to Commodore VIC20 (done) /C64/PET
 1. Classic MacIntosh (M0110 keyboard) via the J9 Connector, and Mouse via J6 Connector. (https://github.com/altercation/tmk_firrmware_hhkb_teensy2/blob/master/protocol/m0110.c) -Done: Needs more work, and I need to correct some issues with my MacClassicPlus 1Mb. This code base will be standalone...how this old Mac handles keys is different from the other retro computers.
