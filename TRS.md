@@ -14,7 +14,7 @@ Connect on the board:
 1. H6-3 to H6-5 (ALT)
 1. H4A-4 to H6-6
 
-Connect the board to the Color Computer 3:
+Connect the board to the Color Computer 2:
 1. H7-5 to +5V
 1. H7-6 to Gnd
 1. H3-1 to J5-1 (R1/Pin 2/PA0)
@@ -32,6 +32,25 @@ Connect the board to the Color Computer 3:
 1. H4-6 to J5-14 (C14/Pin 14/PB5)
 1. H4-7 to J5-15 (C15/Pin 15/PB6)
 1. H4-8 to J5-16 (C16/Pin 16/PB7)
+
+Connect the board to the Dragon64:
+1. H7-5 to +5V
+1. H7-6 to PL1-3 (Gnd)
+1. H3-1 to PL1-1 (KR0)
+1. H3-2 to PL1-2 (KR1)
+1. H3-3 to PL1-4 (KR2)
+1. H3-4 to PL1-5 (KR3)
+1. H3-5 to PL1-6 (KR4)
+1. H3-6 to PL1-7 (KR5)
+1. H3-7 to PL1-8 (KR6)
+1. H4-1 to PL1-9 (KC0) 
+1. H4-2 to PL1-10 (KC1)
+1. H4-3 to PL1-11 (KC2)
+1. H4-4 to PL1-12 (KC3)
+1. H4-5 to PL1-13 (KC4)
+1. H4-6 to PL1-14 (KC5)
+1. H4-7 to PL1-15 (KC6)
+1. H4-8 to PL1-16 (KC7)
 
 **Note: PA7 goes to the DAC (U3)
 
