@@ -36,12 +36,12 @@ Connect the board to the Color Computer 2:
 Connect the board to the Dragon64:
 1. H7-5 to +5V
 1. H7-6 to PL1-3 (Gnd)
-1. H3-1 to PL1-1 (KR0)
-1. H3-2 to PL1-2 (KR1)
-1. H3-3 to PL1-4 (KR2)
-1. H3-4 to PL1-5 (KR3)
-1. H3-5 to PL1-6 (KR4)
-1. H3-6 to PL1-7 (KR5)
+1. H3-1 to PL1-4 (KR2)
+1. H3-2 to PL1-5 (KR3)
+1. H3-3 to PL1-6 (KR4)
+1. H3-4 to PL1-7 (KR5)
+1. H3-5 to PL1-1 (KR0)
+1. H3-6 to PL1-1 (KR1)
 1. H3-7 to PL1-8 (KR6)
 1. H4-1 to PL1-9 (KC0) 
 1. H4-2 to PL1-10 (KC1)
