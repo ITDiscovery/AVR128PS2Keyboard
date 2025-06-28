@@ -123,3 +123,36 @@ Left Shift:
 CTRL Key: 
 1. H3A-8 to H6-3
 1. H4A-8 to H6-4
+ 
+Connection to Commodore128 (CN-1):
+1. Pin 1 H7-6 (Gnd)
+1. Pin 2   (Key)
+1. Pin 3 to H6-8 (Restore) (H6-7 then to GND)
+1. Pin 4 to H7-5 (+5V)
+1. Pin 5 to H3-1 (Row 3, Pin 13/PB3)
+1. Pin 6 to H3-2 (Row 6, Pin 16/PB6)
+1. Pin 7 to H3-3 (Row 5, Pin 15/PB5)
+1. Pin 8 to H3-4 (Row 4, Pin 14/PB4)
+1. Pin 9 to H3-5 (Row 7, Pin 17/PB7)
+1. Pin 10 to H3-6 (Row 2, Pin 12/PB2)
+1. Pin 11 to H3-7 (Row 1, Pin 11/PB1)
+1. Pin 12 to H3-8 (Row 0, Pin 10/PB0)
+1. Pin 13 to H4-1 (Col 0, Pin 2/PA0)
+1. Pin 14 to H4-2 (Col 6, Pin 8/PA6)
+1. Pin 15 to H4-3 (Col 5, Pin 7/PA5)
+1. Pin 16 to H4-4 (Col 4, Pin 6/PA4)
+1. Pin 17 to H4-5 (Col 3, Pin 5/PA3)
+1. Pin 18 to H4-6 (Col 2, Pin 4/PA2)
+1. Pin 19 to H4-7 (Col 1, Pin 3/PA1)
+1. Pin 20 to H4-8 (Col 7, Pin 9/PA7)
+
+Left Shift:
+1. H4A-7 to H6-1
+1. H3A-5 to H6-2
+
+CTRL Key: 
+1. H3A-8 to H6-3
+1. H4A-8 to H6-4
+
+ALT Key:
+
