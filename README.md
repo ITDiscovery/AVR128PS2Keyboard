@@ -25,6 +25,14 @@ https://www.youtube.com/watch?v=7aXbh9VUB3U
 
 PS2Advanced Libary is at https://github.com/techpaul/PS2KeyAdvanced
 
+Some quick thoughts:
+- 5 boards is 8.50....(presuming it ships).
+- Maybe $15 for the rest of the components. You'll probably want to just build out all 5. The AVR128DB28 is $1.5 and the logic chips are $0.70 apiece, some resistors and caps. If you don't have anything, buy assortments from Amazon, except for C3. The USB connector is also pricey.
+- Soldering the AVR (which is a surface mount component) is not difficult, it just takes a bit of practice, use flux and small diameter solder. This doesn't use the through hole AVR because those are made of unobtainium.
+- You'll need an FTDI connector to program the AVR, and the various Aduino libraries. Learning curve is steep.
+- Never tie the 5v of your target computer and use the FTDI connector at the same time.
+
+
 Specific support for the various lines have been broken out:
 - [Sinclair](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/Sinclair.md) full support of the ZX-80/81 and the Spectrum.
 - [Tandy/RadioShack](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/TRS.md) untested code for the Color Computer and Model 3.
