@@ -1,6 +1,6 @@
 # AVR128PS2Keyboard
 This project started as a way to attach a USB Keyboard to a retro computer, the ZX-81. The schematic and board will
-accomodate most any retro PC that uses a matrix. It has the ability for both Shift, CTRL, ALT and one other "function key". The board is an extension of the AVR128DB28 Breakout board, so I've included the ability to get at all the ports this device has.
+accomodate most any retro PC that uses a matrix. It has the ability for both Shift, CTRL, ALT and one other "function key". The board is an extension of the AVR128DB28 Breakout board, so I've included the ability to get at all the ports this device has. This board was not designed to have the fab part out the board for you. I could have done a surface mount board that would be pretty tiny if that were the case, but there's no demand for it. I see this board to assist in troubleshooting, and for demos and museums to extend functionality to users without risking the original keyboard. I have had difficulty in finding keyboards that work with the PS2Keyboard library also.
 
 Design Goals:
 1. USB to ZX-81 (done)
@@ -12,24 +12,25 @@ Design Goals:
 1. Classic MacIntosh (M0110 keyboard) via the J9 Connector, and Mouse via J6 Connector. (https://github.com/altercation/tmk_firrmware_hhkb_teensy2/blob/master/protocol/m0110.c) -Done: Needs more work, and I need to correct some issues with my MacClassicPlus 1Mb. This code base will be standalone...how this old Mac handles keys is different from the other retro computers.
 1. Have it so that you can select or change on the fly which system you are emulating (done)
 1. Have it store a default emulation in EEPROM (done)
-1. Provide the ability to do a reset/restore (Using 4Z gate, Pin 7 and 8 on H6). -done
+1. Provide the ability to do a reset/restore (Using 4Z gate, Pin 7 and 8 on H6). (done)
 1. Have it display via keyboard led which emulation it's doing (keyboard.setLEDs seems to be broken, next board can have LEDs added)
 1. Provide a serial connection or a Composite TV, so a quicky dumb terminal (combines a couple of projects)
-1. Move the lookup tables to Flash (PROGMEM)
-
+1. Move the lookup tables to Flash (PROGMEM done)
 
 I didn't need to re-write the PS2Advanced Library. After a couple of iterations of DXCore updates, it started working. A guess is that it was a problem with attachInterupt...which if you change the setting of, the library doesn't work at all.
 
 Here's Ben Eater's description of how the Keyboard works. All that is done via the PSAdvanced library.
 https://www.youtube.com/watch?v=7aXbh9VUB3U
 
-PS2Advanced Libary is at https://github.com/techpaul/PS2KeyAdvanced
+Level of knowledge/skills required to complete this project:
+- Ordering boards from a PCB Prototype shop (I use JCLPCB, so this is a shout out to them.)
+- The code is written for Arudino and requires the DXCore library (https://github.com/SpenceKonde/DxCore). You must understand how to program Arduinos, how to add libraries (PS2Advanced Libary is at https://github.com/techpaul/PS2KeyAdvanced) and boards. This is a two step process, you must use the UDPI port to load the bootloader and then the Serial Port to load the code via an FTDI connector.
+- Soldering level is moderate. The AVR (which is a surface mount component) is not difficult, it just takes a bit of practice, use flux and small diameter solder. This doesn't use the through hole AVR because those are made of unobtainium. I've recently changed the Gerber on the board to show the values of the parts instead of the part numbers, and am including a BOM from Digikey below. 
+- Understanding of the system your adding this wedge to. 
 
-Some quick thoughts:
-- 5 boards is 8.50....(presuming it ships).
+Quick notes:
+- 5 boards is 8.50....(presuming it ships, I just combined this with another order and got 5 boards for 2 dollars).
 - Maybe $15 for the rest of the components. You'll probably want to just build out all 5. The AVR128DB28 is $1.5 and the logic chips are $0.70 apiece, some resistors and caps. If you don't have anything, buy assortments from Amazon, except for C3. The USB connector is also pricey.
-- Soldering the AVR (which is a surface mount component) is not difficult, it just takes a bit of practice, use flux and small diameter solder. This doesn't use the through hole AVR because those are made of unobtainium.
-- You'll need an FTDI connector to program the AVR, and the various Aduino libraries. Learning curve is steep.
 - Never tie the 5v of your target computer and use the FTDI connector at the same time.
 
 
@@ -82,3 +83,29 @@ Connection to the Mac Classic (This is a separate code base):
 1. J6-7(SW-) to U4-12
 1. J6-8(Y2) to H7-5
 1. J6-9(Y1) to H7-6
+
+![Schematic](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/Schematic_USBtoRetroKeyboard-TH-v1.0.pdf)
+
+![Board](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/PCB_Retro-Keyboard-from-USB.png)
+
+Bill of Materials (see https://www.digikey.com/en/mylists/list/SCZP9ZUCUN):
+
+H3A,H4A,H6,H3,H4: HDR-TH_8P-P2.54
+H7:	HDR-TH_6P-P2.54
+U1: AVR128DB28SOIC28
+U2,U3: CD74HC4051E
+U4: SN74HC4066N
+C1,C5: 	1uF Capacitor (noise filter)
+C2,C6:  10nF (0.01uF) Capacitor
+C7: 100nf (.1uF) Capacitor
+C3: 4.7uF Electorlytic Capacitor
+D1,D2: 1N4148 Diode (D2 as a BAT43 schotky will work better in some UPDI cases).
+H1,H2: HDR-TH_6P-P2.54
+Optional H5: HDR-TH_4P-P2.54
+R1: 10K 1/4W
+R2: 4.7K 1/4W
+Optional R4: 470 1/4W
+Optional R5: 1K 1/4W
+R6: 1K
+SW1: Button-6x6x6mm
+USB1: USB-A-TH_USB-M-18
