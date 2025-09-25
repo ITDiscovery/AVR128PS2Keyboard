@@ -84,28 +84,26 @@ Connection to the Mac Classic (This is a separate code base):
 1. J6-8(Y2) to H7-5
 1. J6-9(Y1) to H7-6
 
-![Schematic](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/Schematic_USBtoRetroKeyboard-TH-v1.0.pdf)
-
 ![Board](https://github.com/ITDiscovery/AVR128PS2Keyboard/blob/main/PCB_Retro-Keyboard-from-USB.png)
 
 Bill of Materials (see https://www.digikey.com/en/mylists/list/SCZP9ZUCUN):
 
-H3A,H4A,H6,H3,H4: HDR-TH_8P-P2.54
-H7:	HDR-TH_6P-P2.54
-U1: AVR128DB28SOIC28
-U2,U3: CD74HC4051E
-U4: SN74HC4066N
-C1,C5: 	1uF Capacitor (noise filter)
-C2,C6:  10nF (0.01uF) Capacitor
-C7: 100nf (.1uF) Capacitor
-C3: 4.7uF Electorlytic Capacitor
-D1,D2: 1N4148 Diode (D2 as a BAT43 schotky will work better in some UPDI cases).
-H1,H2: HDR-TH_6P-P2.54
-Optional H5: HDR-TH_4P-P2.54
-R1: 10K 1/4W
-R2: 4.7K 1/4W
-Optional R4: 470 1/4W
-Optional R5: 1K 1/4W
-R6: 1K
-SW1: Button-6x6x6mm
-USB1: USB-A-TH_USB-M-18
+-H3A,H4A,H6,H3,H4: HDR-TH_8P-P2.54
+-H7:	HDR-TH_6P-P2.54
+-U1: AVR128DB28SOIC28
+-U2,U3: CD74HC4051E
+-U4: SN74HC4066N
+-C1,C5: 	1uF Capacitor (noise filter)
+-C2,C6:  10nF (0.01uF) Capacitor
+-C7: 100nf (.1uF) Capacitor
+-C3: 4.7uF Electorlytic Capacitor
+-D1,D2: 1N4148 Diode (D2 as a BAT43 schotky will work better in some UPDI cases).
+-H1,H2: HDR-TH_6P-P2.54
+-Optional H5: HDR-TH_4P-P2.54
+-R1: 10K 1/4W
+-R2: 4.7K 1/4W
+-Optional R4: 470 1/4W
+-Optional R5: 1K 1/4W
+-R6: 1K
+-SW1: Button-6x6x6mm
+-USB1: USB-A-TH_USB-M-18
