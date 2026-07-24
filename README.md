@@ -91,8 +91,8 @@ Bill of Materials (see https://www.digikey.com/en/mylists/list/SCZP9ZUCUN):
 - H3A,H4A,H6,H3,H4: HDR-TH_8P-P2.54
 - H7:	HDR-TH_6P-P2.54
 - U1: AVR128DB28SOIC28
-- U2,U3: CD74HC4051E
-- U4: SN74HC4066N
+- U2,U3: CD74HCT4051E
+- U4: SN74HCT4066N
 - C1,C5: 	1uF Capacitor (noise filter)
 - C2,C6:  10nF (0.01uF) Capacitor
 - C7: 100nf (.1uF) Capacitor
